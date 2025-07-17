@@ -1,4 +1,14 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# My Portfolio
+
+This is a modern portfolio website built with [Next.js](https://nextjs.org) and [Tailwind CSS](https://tailwindcss.com). The project was bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## Tech Stack
+
+- **Framework**: Next.js 15 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Linting**: ESLint with Next.js config
+- **Package Manager**: npm
 
 ## Getting Started
 
