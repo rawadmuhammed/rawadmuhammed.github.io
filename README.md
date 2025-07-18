@@ -26,7 +26,23 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+You can start editing the page by modifying `src/app/page.tsx`. The page auto-updates as you edit the file.
+
+## Deployment to GitHub Pages
+
+This project is configured for GitHub Pages deployment:
+
+1. **Automatic Deployment**: Push to `main` branch triggers automatic deployment via GitHub Actions
+2. **Manual Deployment**: 
+   ```bash
+   npm run export
+   # Then upload the contents of the 'out/' folder to GitHub Pages
+   ```
+
+### Setting up GitHub Pages:
+1. Go to your repository Settings → Pages
+2. Set Source to "GitHub Actions"
+3. Push your code to trigger the workflow
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
